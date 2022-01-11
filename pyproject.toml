@@ -9,14 +9,16 @@ license = "MIT"
 python = "^3.9"
 celery = "^5.1.2"
 flower = "^1.0.0"
-fastapi = "^0.70.0"
+fastapi = "^0.68.0"
 uvicorn = "^0.15.0"
 alembic = "^1.7.4"
 python-dotenv = "^0.19.1"
+selenium = "^4.1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
 pytest-cov = "^3.0.0"
+pre-commit = "^2.16.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
